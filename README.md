@@ -1,15 +1,16 @@
-# Log Home — Redesign Mockups
+# Log & Timber Home Living — Site Mockups
 
-Static HTML mockups for the consolidated Log Home site (Cabin Life + Timber Home Living folded in).
-Nav and sections follow the Consolidated Taxonomy: Home Tours, Plan, Design, Build, Maintain, Live, Magazine.
-Visual direction is inspired by anglersjournal.com, restyled with a warm palette distinct from that reference.
+Static HTML mockups for the consolidated site (Cabin Life, Log Home and Timber Home Living unified on Flexpress). Built on the LTHL_website style guide_2026 (real palette, fonts, logo) and the approved Shared Taxonomy: Home Tours, Design, Building, Plans, Maintenance, Lifestyle, Events, Classes.
 
 ## Pages
-- `index.html` — links to all three mockups
+
+- `index.html` — links to all mockups below
 - `mockup-01-homepage.html` — homepage
-- `mockup-02-category.html` — Home Tours category hub
-- `mockup-03-article.html` — article page
+- `mockup-02-category.html` — Home Tours category page
+- `mockup-03-article-tour.html` — article page, Home Tour variant
+- `mockup-03b-article-editorial.html` — article page, editorial/feature variant (inline body images, no tour gallery)
+- `mockup-04-tag.html` — Timber Frame tag page
 
 ## Publish via GitHub Pages
-Drop this folder's contents into your Pages repo (e.g. `amacdonald-cmyk.github.io/log-home-mockups/`), commit, and push.
-GitHub Pages will serve `index.html` automatically.
+
+This repo's contents serve directly at amacdonald-cmyk.github.io/log-home-mockups/ — GitHub Pages serves `index.html` automatically from the `main` branch.

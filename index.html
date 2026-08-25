@@ -2,45 +2,41 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Log Home — Redesign Mockups (styled after Anglers Journal)</title>
+<title>Log & Timber Home Living — Site Mockups</title>
 <style>
-body{margin:0;font-family:Georgia,serif;background:#f7f5f2;color:#111;}
-.wrap{max-width:820px;margin:0 auto;padding:60px 24px;}
-h1{font-size:30px;margin:0 0 6px;}
-p.lead{font-family:Helvetica,Arial,sans-serif;color:#555;font-size:15px;line-height:1.6;max-width:640px;}
-.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:36px;}
-.card{background:#fff;border:1px solid #e2dacb;padding:24px;text-align:center;}
-.card h2{font-size:17px;margin:0 0 8px;}
-.card p{font-family:Helvetica,Arial,sans-serif;font-size:13px;color:#666;line-height:1.5;margin:0 0 16px;}
-.card a{display:inline-block;font-family:Helvetica,Arial,sans-serif;font-size:11px;letter-spacing:1px;text-transform:uppercase;border:1px solid #111;padding:8px 16px;color:#111;text-decoration:none;}
-.card a:hover{background:#111;color:#fff;}
-.note{margin-top:44px;font-family:Helvetica,Arial,sans-serif;font-size:12px;color:#8a8072;line-height:1.7;border-top:1px solid #e2dacb;padding-top:20px;}
+:root{--teal:#306b80;--maroon:#7b001d;--gold:#b88f2d;--pale:#fbf3bd;--sage:#e9e9d3;--olive:#a5bf2d;--gray:#756c64;--ink:#000000;--white:#ffffff;--line:#e9e9d3;}
+*{box-sizing:border-box;}
+body{margin:0;font-family:Georgia,'Times New Roman',serif;color:var(--ink);background:var(--white);}
+a{color:inherit;text-decoration:none;}
+.wrap{max-width:900px;margin:0 auto;padding:50px 24px 80px;}
+.logo-row img{height:56px;margin-bottom:22px;}
+h1{font-size:26px;margin:0 0 6px;font-weight:normal;}
+.sub{font-family:'Brother 1816',Helvetica,Arial,sans-serif;color:#4a4640;font-size:14px;line-height:1.6;max-width:640px;margin:0 0 36px;}
+h2.group{font-size:12px;letter-spacing:2px;text-transform:uppercase;color:var(--maroon);border-bottom:2px solid var(--line);padding-bottom:8px;margin:40px 0 16px;}
+.list a{display:block;background:#fdfcf8;border:1px solid var(--line);border-radius:2px;padding:16px 20px;margin-bottom:10px;font-size:16px;}
+.list a:hover{border-color:var(--maroon);}
+.list a span{display:block;font-family:'Brother 1816',Helvetica,Arial,sans-serif;font-size:12px;color:#4a4640;margin-top:4px;}
+.list a em{font-family:'Brother 1816',Helvetica,Arial,sans-serif;font-style:normal;font-size:10px;letter-spacing:.5px;text-transform:uppercase;color:var(--gray);}
+footer{font-family:'Brother 1816',Helvetica,Arial,sans-serif;font-size:11px;color:var(--gray);margin-top:46px;border-top:1px solid var(--line);padding-top:16px;line-height:1.6;}
 </style>
 </head>
 <body>
+
 <div class="wrap">
-  <h1>Log Home — Redesign Mockups</h1>
-  <p class="lead">Visual direction styled after Anglers Journal, applied to real content pulled from Log Home, Cabin Life and Timber Home Living. Retains the Log Home domain and brand as the flagship, with Cabin Life and Timber Home Living folded in as content verticals.</p>
-  <div class="cards">
-    <div class="card">
-      <h2>Homepage</h2>
-      <p>Hero, cross-brand recent stories, and dedicated sections for Log Homes, Cabin Life and Timber Frame.</p>
-      <a href="mockup-01-homepage.html">View →</a>
-    </div>
-    <div class="card">
-      <h2>Category Page</h2>
-      <p>The Cabin Life vertical as a topic hub inside the consolidated site — same pattern would apply to Timber Frame or Log Homes.</p>
-      <a href="mockup-02-category.html">View →</a>
-    </div>
-    <div class="card">
-      <h2>Article Page</h2>
-      <p>A Cabin Life story running on the Log Home template, with cross-brand "More Stories" sidebar.</p>
-      <a href="mockup-03-article.html">View →</a>
-    </div>
+  <h1>Log &amp; Timber Home Living — Site Mockups</h1>
+  <p class="sub">Static HTML mockups for the consolidated site (Cabin Life, Log Home and Timber Home Living unified). Built on the LTHL_website style guide_2026 (palette, fonts, logo) and the approved Shared Taxonomy: Home Tours, Design, Building, Plans, Maintenance, Lifestyle, Events, Classes.</p>
+
+  <h2 class="group">Pages</h2>
+  <div class="list">
+    <a href="mockup-01-homepage.html">Homepage <span>Hero, Company of the Week (sponsor), Featured Companies carousel, taxonomy sections.</span></a>
+    <a href="mockup-02-category.html">Category Page <em>(Home Tours)</em><span>Breadcrumb, filter pills, featured story, article list, sidebar ad stack.</span></a>
+    <a href="mockup-03-article-tour.html">Article Page <em>(Home Tour)</em><span>Long-form body, byline/pull-quote, project details tied to a builder listing.</span></a>
+    <a href="mockup-03b-article-editorial.html">Article Page <em>(Editorial)</em><span>Feature/analysis variant &mdash; inline body images with captions instead of a tour gallery.</span></a>
+    <a href="mockup-04-tag.html">Tag Page <em>(Timber Frame)</em><span>Construction-type tag, flat list, lead story, related tags.</span></a>
   </div>
-  <div class="note">
-    These are static HTML mockups for internal review — not live pages. Headlines, images and bylines are pulled from the current Log Home, Cabin Life and Timber Home Living sites; body copy on the article mockup is placeholder text standing in for the final piece. Layout, typography and navigation pattern are modeled on anglersjournal.com per your reference screenshots.
-  </div>
+
+  <footer>Static HTML mockups for internal review, not live pages. Fonts (Bressay, Brother 1816) are Adobe Fonts/Typekit &mdash; these mockups fall back to Georgia/Helvetica since no kit ID was provided; production should embed the brand's existing Typekit kit.</footer>
 </div>
+
 </body>
 </html>
